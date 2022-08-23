@@ -1,0 +1,16 @@
+.foooter-mobile {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .body {
+    height: calc(100vh - 62px - 50px);
+    overflow: auto;
+    overflow-x: hidden;
+  }
+  .footer {
+    display: none;
+  }
+  .foooter-mobile {
+    display: block;
+  }
+}

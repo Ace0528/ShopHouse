@@ -6,6 +6,28 @@
   height: 40vmin;
   pointer-events: none;
 }
+.page-not-found{
+  text-align: center;
+
+}
+.img-error{
+  width: 60%;
+}
+
+@media screen and (max-width: 425px){
+  .page-not-found{
+  height: 80vh;
+} 
+  .img-error{
+  margin-top: 50%;
+}
+}
+@media screen and (min-width: 425px) and (max-width: 768px){
+  .page-not-found{
+  height: 80vh;
+}
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

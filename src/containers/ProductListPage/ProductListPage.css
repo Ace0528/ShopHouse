@@ -1,0 +1,8 @@
+.products-list {
+  display: flex;
+}
+@media screen and (max-width: 499px) {
+  .products-list {
+    display: block;
+  }
+}

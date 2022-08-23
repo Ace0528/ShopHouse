@@ -1,0 +1,97 @@
+$green-light-color: #9ab080;
+$green-medium-color: #677d4e;
+$green-dark-color: #343e27;
+$black-default-color: #1c2120;
+$gray-default-color: #d6d6d6;
+
+@mixin product-card {
+  border: 2px solid $green-light-color;
+  width: 220px;
+  height: 245px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+}
+@mixin price {
+  color: $green-light-color;
+  font-weight: bold;
+  font-size: 16px;
+}
+@mixin footer-section {
+  background-color: $green-light-color;
+  width: 33.3%;
+  height: 100%;
+}
+@mixin footer-copyright {
+  background-color: $green-light-color;
+  width: 100%;
+  height: 55px;
+}
+@mixin border {
+  border: 2px solid $green-medium-color;
+}
+@mixin category {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  margin: 20px 0;
+}
+@mixin productPage-price {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: $green-medium-color;
+}
+@mixin productPage-title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+}
+@mixin productPage-category {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+@mixin product-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+@mixin product-fav-description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  height: 95px;
+  max-width: 900px;
+  overflow: hidden;
+}
+@mixin checkoutPage-product-price {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  max-width: 150px;
+}
+@mixin checkOut-btn {
+  width: 245px;
+  height: 55px;
+  background: #4e7048;
+  border: none;
+  color: #ffffff;
+}
+@mixin total-price {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: $green-light-color;
+}
+@mixin in-cart-btn {
+  padding: 15px 10px;
+  color: $green-medium-color;
+}
+@mixin inp-done {
+  color: $green-medium-color;
+  margin: 12px 0px;
+}

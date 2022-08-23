@@ -1,0 +1,19 @@
+.section-title {
+  width: 100%;
+  padding: 10px 20px;
+  text-align: left;
+  text-decoration: underline;
+  text-decoration-color: #677d4e;
+  text-underline-offset: 10px;
+}
+@media screen and (max-width: 768px) {
+  .section-title {
+    padding: 5px 10px;
+  }
+  .section-title-mobile {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+  }
+}

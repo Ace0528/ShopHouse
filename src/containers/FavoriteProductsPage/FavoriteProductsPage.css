@@ -1,0 +1,24 @@
+.fav-empty {
+  width: 500px;
+}
+@media screen and (max-width: 768px) {
+  .favourite-page-mobile {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+  .checkout-page-empty {
+    height: 80vh;
+    width: auto;
+  }
+  .fav-empty {
+    height: 50vh;
+    margin: auto;
+  }
+  .mobile-page-fav {
+    height: 80vh;
+    overflow: auto;
+  }
+}

@@ -1,0 +1,17 @@
+.success{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.margin-success{
+    margin-top: 75px;
+    margin-bottom: 55px;
+}
+.margin-btn{
+    margin-top: 30px;
+}
+@media screen and (max-width: 768px){
+    .success{
+        height: 38vh;
+    }
+}

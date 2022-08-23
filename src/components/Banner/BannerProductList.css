@@ -1,0 +1,33 @@
+.banner-product-page {
+  background-image: url("../../assets/images/bannersofas.png");
+  background-repeat: no-repeat;
+  height: 190px;
+  background-size: cover;
+}
+.baner-product-page-offer {
+  max-width: 350px;
+  padding-top: 25px;
+  text-align: center;
+  margin: 0 auto;
+}
+@media screen and (max-width: 499px) {
+  .banner-product-page {
+    height: auto;
+  }
+  .baner-product-page-offer {
+    padding-right: 25px;
+    text-align: end;
+    padding-top: 0;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 768px) {
+  .banner-product-page {
+    height: 190px;
+  }
+  .baner-product-page-offer {
+    max-width: 350px;
+    padding-top: 25px;
+    text-align: end;
+    margin: 0 auto;
+  }
+}

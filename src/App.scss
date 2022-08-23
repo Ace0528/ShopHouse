@@ -1,0 +1,70 @@
+@import "./styles/base/colors.scss";
+
+.product-card {
+  @include product-card;
+}
+.price {
+  @include price;
+}
+.footer-section {
+  @include footer-section;
+}
+.footer-copyright {
+  @include footer-copyright;
+}
+.border {
+  @include border;
+}
+.category {
+  @include category;
+}
+.productPage-price {
+  @include productPage-price;
+}
+.productPage-title {
+  @include productPage-title;
+}
+.productPage-category {
+  @include productPage-category;
+}
+.product-description {
+  @include product-description;
+}
+.checkoutPage-product-price {
+  @include checkoutPage-product-price;
+}
+.checkOut-btn {
+  @include checkOut-btn;
+}
+.total-price {
+  @include total-price;
+}
+.product-fav-description {
+  @include product-fav-description;
+}
+.in-cart-btn {
+  @include in-cart-btn;
+}
+.inp-done {
+  @include inp-done;
+}
+
+@media screen and (max-width: 768px) {
+  .product-card {
+    width: 140px;
+    height: 220px;
+  }
+  .category {
+    font-size: 14px;
+  }
+  .productPage-title {
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .productPage-category {
+    font-size: 14px;
+  }
+  .product-description {
+    font-size: 11px;
+  }
+}

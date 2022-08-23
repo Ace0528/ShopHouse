@@ -1,0 +1,13 @@
+.home-news-product {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@media screen and (max-width: 768px) {
+  .home-news-product {
+    column-gap: 20px;
+    overflow-x: auto;
+    padding: 0px 15px;
+    justify-content: normal;
+  }
+}

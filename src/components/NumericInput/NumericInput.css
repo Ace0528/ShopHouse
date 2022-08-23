@@ -1,0 +1,21 @@
+.buttons-qty {
+  width: 28.9px;
+  height: 30.33px;
+  background: #f1f1f1;
+  border-radius: 14px;
+  border: none;
+}
+@media screen and (max-width: 768px) {
+  .buttons-qty-container {
+    display: inline-block;
+  }
+  .buttons-qty {
+    width: 20px;
+    height: 20px;
+    font-size: small;
+    line-height: normal;
+  }
+  .qty {
+    font-size: small;
+  }
+}

@@ -1,0 +1,102 @@
+.banner{
+ background-image: url('../../assets/images/banner.png');
+ background-repeat: no-repeat;
+ height: 312px;
+ background-size:cover ;
+}
+.baner-offer{
+    max-width: 350px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 50px;
+}
+.banner-title{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+.banner-title-category{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 72px;
+}
+.banner-tittle-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+.baner-offer-mobile{
+    display: none;
+}
+@media screen and  (max-width: 768px){
+        .banner{
+        width: 90%;
+        height: 166px;
+        background-size: contain;
+        margin: 0 auto;
+    }
+    .baner-offer{
+        display: none;
+    }
+    .baner-offer-mobile{
+        display: block;
+        float: right;
+        margin-right: 45px;
+        margin-top: 20px;
+    }
+    .banner-title-mobile{
+        display: block;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+    }
+    .banner-title-category-mobile{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+    }
+    .banner-tittle-description{
+ display: none;
+}
+}
+
+@media screen and (max-width: 500px){
+    .banner{
+        width: 90%;
+        height: 100px;
+        background-size: contain;
+        margin: 0 auto;
+    }
+    .baner-offer{
+        display: none;
+    }
+    .baner-offer-mobile{
+        display: block;
+        float: right;
+        margin-right: 10px;
+        margin-top: 0;
+    }
+    .banner-title-mobile{
+        display: block;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+    }
+    .banner-title-category-mobile{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+    }
+.banner-tittle-description{
+ display: none;
+}
+.banner-title-category{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 72px;
+}
+}

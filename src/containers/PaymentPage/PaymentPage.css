@@ -1,0 +1,160 @@
+.page-container {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.address-form {
+  width: 584px;
+  height: 320px;
+}
+.border-form {
+  border: 2px solid #f3f2f3;
+}
+.mt {
+  margin-top: 15px;
+}
+.addres-line {
+  width: 390px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.payment-line {
+  width: 450px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.form-container {
+  display: flex;
+  text-align: left;
+  justify-content: space-around;
+  align-items: center;
+}
+.text-form {
+  width: 250px;
+  height: 35px;
+  background: #d6d6d69a;
+  border: none;
+  color: #677d4e;
+  margin-bottom: 15px;
+}
+input {
+  text-transform: capitalize;
+}
+input:focus {
+  outline: none;
+}
+.payment-form {
+  margin-top: 20px;
+  width: 584px;
+  height: 275px;
+}
+.payment-choise {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.order-container {
+  width: 568px;
+  height: 245px;
+}
+.price-line {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 394px;
+}
+.payment-container {
+  width: 568px;
+  height: 350px;
+  margin-top: 20px;
+}
+.text {
+  float: left;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+.text-form-payment {
+  width: 500px;
+  height: 35px;
+  background: #d6d6d69a;
+  border: none;
+  color: #677d4e;
+  margin: 10px 0px;
+}
+.expiry {
+  width: 220px;
+  height: 35px;
+  float: left;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.btn-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.inp-error {
+  font-size: 12px;
+  width: 100%;
+  padding: 3px 0;
+  color: red;
+  margin-left: 10px;
+}
+.inp-error-card {
+  font-size: 12px;
+  padding: 3px 0;
+  color: red;
+}
+@media screen and (max-width: 768px) {
+  .page-container {
+    display: block;
+    margin: 0 auto;
+  }
+  .address-form {
+    width: 95%;
+    height: auto;
+  }
+  .addres-line {
+    width: 70%;
+  }
+  .text-form {
+    width: 100px;
+  }
+  .payment-form {
+    width: 95%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .payment-line {
+    width: 70%;
+  }
+  .img-width {
+    width: 50%;
+  }
+  .order-container {
+    width: 95%;
+    height: auto;
+  }
+  .price-line {
+    width: 70%;
+  }
+  .payment-container {
+    width: 95%;
+    height: auto;
+  }
+  .text-form-payment {
+    width: 85%;
+  }
+  .expiry {
+    width: 100px;
+  }
+  .inp-error {
+    font-size: 10px;
+    display: block;
+    padding: 3px 0px;
+    margin-left: 0px;
+  }
+  br {
+    display: inline-block;
+  }
+}
